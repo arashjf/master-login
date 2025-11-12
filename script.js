@@ -12,7 +12,6 @@ form.addEventListener("submit", function (e) {
   } else {
     showtoast("❌ نام کاربری یا رمز اشتباه است", "error");
   }
-
 });
 
 function showtoast(message, type = "succes") {
