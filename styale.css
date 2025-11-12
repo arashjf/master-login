@@ -174,7 +174,7 @@ main {
 }
 
 .toast.error {
-  background-color: #ff0000;
+  background-color: #ff000053;
 }
 
 @keyframes toastbox {
