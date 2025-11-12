@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sign up</title>
+    <link rel="stylesheet" href="styale.css" />
+  </head>
+  <body>
+    <main>
+      <form class="login-form" id="login-form" action="login" method="post">
+        <p class="welcom-text">login</p>
+        <label for="fname" id="label-name"> name</label>
+
+        <input
+          class="login-input"
+          placeholder="Enter name"
+          type="text"
+          name="fname"
+          id="fname"
+          required
+        />
+
+        <label for="pass" id="label-pass"> password</label>
+
+        
+        <div class="eye-icon">
+          <input
+          class="login-input"
+          placeholder="Enter password"
+          type="password"
+          name="pass"
+          id="pass"
+          required
+          />
+          <button type="button" id="icon-pass">👁️</button>
+        </div>
+
+        <div class="rember-div">
+          <a href="https://www.digikala.com/" id="rember-me">rember me</a>
+          <!-- <a id="rember-me">rember me</a> -->
+          <input id="checkbox"  type="checkbox" />
+        </div>
+
+
+        <button type="submit" class="login-button" id="login-button">
+          login
+          <img
+            src="—Pngtree—black iron lock icon_4438288.png"
+            alt="lock"
+            id="lock"
+          />
+        </button>
+      </div>
+    </form>
+    <div id="lock">
+    <div class="toast-container" id="toast-container"></div>
+    <script src="script.js"></script>
+    </main>
+  </body>
+</html>
