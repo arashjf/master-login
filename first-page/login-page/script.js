@@ -2,7 +2,7 @@ const form = document.getElementById("login-form");
 const toastContainer = document.getElementById("toastContainer");
 
 form.addEventListener("submit", function (e) {
-  e.preventDefault();
+  // e.preventDefault();
 
   const fname = document.getElementById("fname");
   const pass = document.getElementById("pass");
